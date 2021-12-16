@@ -40,8 +40,7 @@ function handleText(textNode)
 	var v = textNode.nodeValue;
 
 	v = v.replace(/\bus-east-1\b/g, "us-emily-1");
+	v = v.replace(/\bN. Virginia\b/g, "us-emily-1");
 	
 	textNode.nodeValue = v;
 }
-
-
